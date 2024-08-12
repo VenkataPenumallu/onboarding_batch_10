@@ -12,7 +12,7 @@ access_grant: sample {
 }
 datagroup: onboarding_batch_10_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
-  max_cache_age: "1 hour"
+  max_cache_age: "60 seconds"
 }
 
 persist_with: onboarding_batch_10_default_datagroup

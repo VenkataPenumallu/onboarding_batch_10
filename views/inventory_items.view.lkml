@@ -28,10 +28,13 @@ view: inventory_items {
 
   measure: total_cost {
     type: sum
-    sql: ${cost} ;;  }
+    sql: ${cost} ;;
+  }
+
   measure: average_cost {
     type: average
-    sql: ${cost} ;;  }
+    sql: ${cost} ;;
+  }
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
   # Looker converts dates and timestamps to the specified timeframes within the dimension group.
 
